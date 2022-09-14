@@ -53,7 +53,7 @@ main {
     flex-wrap: wrap;
 }
 
-#evaluation-form input {
+.input-dados {
 
     padding: 6px;
     margin-right: 10px;
@@ -89,12 +89,13 @@ h2 {
     align-self: center;
     font-size: 25px;
     margin-top: 15px;
+    
 
 }
 
 #input-radio{
     width: 2%;
+
     
 }
-
 

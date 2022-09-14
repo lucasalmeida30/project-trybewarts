@@ -27,12 +27,12 @@
             <form action="" id="evaluation-form">
 
                 <div id="section-name">
-                    <input id="input-name" type="text" placeholder="Nome">
-                    <input id="input-lastname" type="text" placeholder="Sobrenome">
+                    <input class="input-dados" id="input-name" type="text" placeholder="Nome">
+                    <input class="input-dados" id="input-lastname" type="text" placeholder="Sobrenome">
                 </div>
 
                 <div id="section-email">
-                    <input id="input-email" type="email" placeholder="Email">
+                    <input class="input-dados" id="input-email" type="email" placeholder="Email">
 
                     <label for="">Casa:</label>
                     <select name="" id="house">
@@ -48,12 +48,76 @@
                     </select>
                     
                 </div>
+                <br>
                 <hr>
-                <label id="label-family" for="">Qual a sua familia?</label>
-                <div>
-                    <input type="radio" name="family" id="input-radio">
-                    <label for="">Frontend</label>
+                <label id="label-family" for="">Qual sua família?</label>
+
+                <div >
+
+                    <label for="input-1">
+                        <input type="radio" name="family" id="input-1" value="Frontend" checked>Frontend
+                    </label>
                 </div>
+                <div>
+                    <label for="input-2">
+                        <input type="radio" name="family" id="input-2" value="Backend" >Backend
+                    </label>
+                </div>
+                <div>
+                    <label for="input-3">
+                        <input type="radio" name="family" id="input-3" value="FullStack" >FullStack
+                    </label>
+                </div>
+
+                <br><br>
+                <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
+
+                <div>
+                    <label for="">
+                        <input class="subject" type="checkbox" value="HoFs">HoFs
+                    </label>
+                </div>
+
+                <div>
+                    <label for="">
+                        <input class="subject" type="checkbox" value="Jest">Jest
+                    </label>
+                </div>
+
+                <div>
+                    <label for="">
+                        <input class="subject" type="checkbox" value="Promises">Promises
+                    </label>
+                </div>
+
+                <div>
+                    <label for="">
+                        <input class="subject" type="checkbox" value="React">React
+                    </label>
+                </div>
+
+                <div>
+                    <label for="">
+                        <input class="subject" type="checkbox" value="SQL">SQL
+                    </label>
+                </div>
+
+                <div>
+                    <label for="">
+                        <input class="subject" type="checkbox" value="Python">Python
+                    </label>
+                </div>
+   
+
+
+
+
+
+
+
+
+
+
                 
                
             </form>
