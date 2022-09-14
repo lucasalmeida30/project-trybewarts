@@ -6,4 +6,30 @@
 .header{
     background-color: rgb(50, 167, 145);
     display: flex;
+    justify-content: space-between;
 }
+
+.header img {
+    width: 80px;
+    margin-left: 12px;
+    padding: 6px;
+}
+
+.trybewarts-login{
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.trybewarts-login input {
+    padding: 6px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.trybewarts-login button {
+   padding: 6px;
+    border-radius: 4px;
+    width: 100px;
+}
+
