@@ -25,11 +25,18 @@
     padding: 6px;
     margin-right: 10px;
     border-radius: 4px;
+    border: none;
 }
 
 .trybewarts-login button {
    padding: 6px;
     border-radius: 4px;
     width: 100px;
+    border: none;
+}
+
+#trybewarts-header-title {
+    align-self: center;
+    color: white;
 }
 
