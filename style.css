@@ -1,143 +1,129 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.header{
-    background-color: rgb(50, 167, 145);
-    display: flex;
-    justify-content: space-between;
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
 }
 
 .header img {
-    width: 80px;
-    margin-left: 12px;
-    padding: 6px;
+  width: 80px;
+  margin-left: 12px;
+  padding: 6px;
 }
 
-.trybewarts-login{
-    display: flex;
-    align-items: center;
-    margin-right: 35px;
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
 }
 
 .trybewarts-login input {
-    padding: 6px;
-    margin-right: 10px;
-    border-radius: 4px;
-    border: none;
+  padding: 6px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: none;
 }
 
 .trybewarts-login button {
-   padding: 6px;
-    border-radius: 4px;
-    width: 100px;
-    border: none;
+  padding: 6px;
+  border-radius: 4px;
+  width: 100px;
+  border: none;
 }
 
 #trybewarts-header-title {
-    align-self: center;
-    color: white;
+  align-self: center;
+  color: white;
 }
 
 main {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
 }
 
 #evaluation-form {
-    display: flex;
-    width: 675px;
-    flex-direction: column;
-    flex-wrap: wrap;
+  display: flex;
+  width: 675px;
+  flex-flow: column wrap;
 }
 
 .input-dados {
-
-    padding: 6px;
-    margin-right: 10px;
-    border-radius: 4px;
-    width: 300px;
-    height: 30px;
-    margin-top: 15px;
+  padding: 6px;
+  margin-right: 10px;
+  border-radius: 4px;
+  width: 300px;
+  height: 30px;
+  margin-top: 15px;
 }
 
 #house {
-    padding: 6px;
-    width: 260px;
-    height: 46px;
-    margin-top: 15px;
-
-
+  padding: 6px;
+  width: 260px;
+  height: 46px;
+  margin-top: 15px;
 }
 
 #trybewarts-forms-logo {
-    height: 500px;
+  height: 500px;
 }
-
 
 h2 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 30px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
 }
 
-
-
-#label-house{
-    align-self: center;
-    font-size:  23px;
-    margin-top: 15px;
-    
+#label-house {
+  align-self: center;
+  font-size: 23px;
+  margin-top: 15px;
 }
 
-#label-family{
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-size: 18px;
-    
+#label-family {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 18px;
 }
 
-#container-family{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+#container-family {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
-#input-1, #input-2{
-    margin-bottom: 13px;
+#input-1 , #input-2 {
+  margin-bottom: 13px;
 }
 
-#teste{
-    display: flex;
-    
-    flex-wrap: wrap;
-    width: 260px;
+#teste {
+  display: flex;
+  flex-wrap: wrap;
+  width: 260px;
 }
 
-
-.subject{
-    margin-right: 8px;
-    margin-left: 8px;
+.subject {
+  margin-right: 8px;
+  margin-left: 8px;
 }
 
-#label-content{
-    margin-bottom: 12px;
-    margin-top: 12px;
-    font-size: 18px;
+#label-content {
+  margin-bottom: 12px;
+  margin-top: 12px;
+  font-size: 18px;
 }
-
-
-/*Adicionei estilo ao footer */
 
 footer {
-    background-color: rgb(102, 104, 107);
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-size: 30px;
-  }
+  background-color: rgb(102, 104, 107);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
