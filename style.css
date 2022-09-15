@@ -84,18 +84,50 @@ h2 {
     font-size: 30px;
 }
 
-#evaluation-form label {
 
+
+#label-house{
     align-self: center;
-    font-size: 25px;
+    font-size:  23px;
     margin-top: 15px;
     
-
 }
 
-#input-radio{
-    width: 2%;
-
+#label-family{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 18px;
     
+}
+
+#container-family{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#input-1, #input-2{
+    margin-bottom: 13px;
+}
+
+#teste{
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 260px;
+}
+
+
+.subject{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#label-content{
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-size: 18px;
 }
 
