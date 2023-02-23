@@ -19,7 +19,7 @@
       </form>
     </header>
 
-    <main>
+    <main id="main-container">
 
         <div id="section-content">
             <h2>Formulário de Avaliação</h2>
@@ -69,98 +69,92 @@
                         <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
                         <div>
     
-                            <label for="">
+                            <label class="label-subject" for="">
                                 <input class="subject" type="checkbox" value="HoFs">HoFs
                             </label>
                         </div>
                         <div>
-                            <label for="">
+                            <label class="label-subject" for="">
                                 <input class="subject" type="checkbox" value="Jest">Jest
                             </label>
                         </div>
                         <div>
-                            <label for="">
+                            <label class="label-subject" for="">
                                 <input class="subject" type="checkbox" value="Promises">Promises
                             </label>
                         </div>
                         <div>
-                            <label for="">
+                            <label class="label-subject" for="">
                                 <input class="subject" type="checkbox" value="React">React
                             </label>
                         </div>
                         <div>
-                            <label for="">
+                            <label class="label-subject" for="">
                                 <input class="subject" type="checkbox" value="SQL">SQL
                             </label>
                         </div>
                         <div>
-                            <label for="">
+                            <label class="label-subject" for="">
                                 <input class="subject" type="checkbox" value="Python">Python
                             </label>
                         </div>
                     </div>
                 </div>
+                 <br>
+                 <hr>
+  <div id="section-avaliator">
+    <label id="label-rate" for="">Como você avalia a Trybewarts?</label>
+    <label for="rate-1">
+      <input type="radio" name="rate" id="rate-1" value="1" checked>1
+    </label>
+    <label for="rate-2">
+      <input type="radio" name="rate" id="rate-2" value="2" checked>2
+    </label>
+    <label for="rate-3">
+      <input type="radio" name="rate" id="rate-3" value="3" checked>3
+    </label>
+    <label for="rate-4">
+      <input type="radio" name="rate" id="rate-4" value="4" checked>4
+    </label>
+    <label for="rate-5">
+      <input type="radio" name="rate" id="rate-5" value="5" checked>5
+    </label>
+    <label for="rate-6">
+      <input type="radio" name="rate" id="rate-6" value="6" checked>6
+    </label>
+    <label for="rate-7">
+      <input type="radio" name="rate" id="rate-7" value="7" checked>7
+    </label>
+    <label for="rate-8">
+      <input type="radio" name="rate" id="rate-8" value="8" checked>8
+    </label>
+    <label for="rate-9">
+      <input type="radio" name="rate" id="rate-9" value="9" checked>9
+    </label>
+    <label for="rate-10">
+      <input type="radio" name="rate" id="rate-10" value="10" checked>10
+    </label>
+  </div>
 
-<div>
-  <label id="label-rate" for="">Como você avalia a Trybewarts?</label>
-  <label for="rate-1">
-    <input type="radio" name="rate" id="rate-1" value="1" checked>1
-  </label>
-  <label for="rate-2">
-    <input type="radio" name="rate" id="rate-2" value="2" checked>2
-  </label>
-  <label for="rate-3">
-    <input type="radio" name="rate" id="rate-3" value="3" checked>3
-  </label>
-  <label for="rate-4">
-    <input type="radio" name="rate" id="rate-4" value="4" checked>4
-  </label>
-  <label for="rate-5">
-    <input type="radio" name="rate" id="rate-5" value="5" checked>5
-  </label>
-  <label for="rate-6">
-    <input type="radio" name="rate" id="rate-6" value="6" checked>6
-  </label>
-  <label for="rate-7">
-    <input type="radio" name="rate" id="rate-7" value="7" checked>7
-  </label>
-  <label for="rate-8">
-    <input type="radio" name="rate" id="rate-8" value="8" checked>8
-  </label>
-  <label for="rate-9">
-    <input type="radio" name="rate" id="rate-9" value="9" checked>9
-  </label>
-  <label for="rate-10">
-    <input type="radio" name="rate" id="rate-10" value="10" checked>10
-  </label>
-</div>
-
-<div>
   <label class="textarea" for="">Deixe seu comentário:</label>
-</div>
+
   <textarea name="sobre-mim" id="textarea1" cols="30" rows="5" maxlength="500"></textarea>
+
+   <div id="section-check">
+     <label id="label-infos" for="">Você concorda com o uso das informações acima?</label>
+     <input id="agreement" type="checkbox">
+   </div>
+   
+   <button type="submit" id="submit-btn" disabled >Enviar</button>   
+   </form>
 </div>
 
-<label id="label-infos" for="">Você concorda com o uso das informações acima?</label>
-  <label for="">
-    <input id="agreement" type="checkbox">
-  </label>
-
-  <div>
-    <br><br>
-    <button type="submit" id="submit-btn" disabled >Enviar</button>
-</div>
-              
-            </form>
-        </div>
-
-        <img id="trybewarts-forms-logo" src="/images/trybewarts-colored.svg" alt="">
-        <div>
-          <footer>Direitos reservados à Trybewarts©</footer>
-        </div>
+    <img id="trybewarts-forms-logo" src="/images/trybewarts-colored.svg" alt="">
 
     </main>
-
+    
+      <footer><p>Direitos reservados à Trybewarts©</p></footer>
+    
     <script src="script.js"></script>
 </body>
 </html>
